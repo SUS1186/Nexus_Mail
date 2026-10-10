@@ -1,0 +1,22 @@
+# Environment secrets & API keys
+.env
+
+# Google OAuth credentials (DO NOT COMMIT)
+token.json
+credentials.json
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Local diagnostic logs & OS files
+*.log
+.DS_Store
+Thumbs.db
